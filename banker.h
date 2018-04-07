@@ -21,4 +21,6 @@ extern bool release_res(int n_customer, int release[]);
 
 extern bool getResources();
 
+extern void *customer(void *NumOfCustomers);
+
 #endif /* BANKER_H_ */
